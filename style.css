@@ -1,7 +1,27 @@
-header {
-    background-color: blueviolet;
+#top-nav {
+    display: flex;
+    height: 100px;
+    background-color: royalblue;
+    justify-content: space-between;
+}
+
+#logo-name {
+    width: 100px;
+    height: 50px;
+    background-color: red;
+}
+
+#main-header {
+    height: 75px;
+    background-color: lightskyblue;
+}
+
+#posts {
+    height: max-content;
+    background-color: grey;
 }
 
 footer {
-    background-color: cyan;
+    height: 100px;
+    background-color: black;
 }
