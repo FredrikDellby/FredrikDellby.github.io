@@ -1,14 +1,36 @@
 #top-nav {
     display: flex;
-    height: 100px;
+    height: 120px;
     background-color: royalblue;
     justify-content: space-between;
+    align-items: center;
 }
 
 #logo-name {
-    width: 100px;
-    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    margin: 10px 100px;
     background-color: red;
+}
+
+#logo {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+}
+
+#so-me-tags {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px;
+}
+
+#so-me-tags img {
+    margin: 5px;
 }
 
 #main-header {
@@ -18,6 +40,11 @@
 
 #posts {
     height: max-content;
+    background-color: grey;
+    height: 100vh;
+}
+
+#posts-header {
     background-color: grey;
 }
 
